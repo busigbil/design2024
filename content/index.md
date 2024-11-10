@@ -1,11 +1,15 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is a page about me.
 ---
 
-Home page
+Home
 ==========================
 
-The source for this page is in `content/index.md`.
+Jag heter Jenny och bor i Västerås. Jag jobbar som systemtestare på Sveriges a-kassor och läser kurser i webbprogrammering på BTH. På min fritid försöker jag lära mig finska och spela gitarr (helst samtidigt).
 
-This is a sample home page written in markdown with some frontmatter defined.
+Mina intressen
+--------------------------
+På senaste tiden har jag börjat måla småfåglar. Dom brukar komma till min balkong. Jag funderar på att lägga ut mat till dom till vintern, men vet inte om det skulle uppskattas av grannarna.
+
+![En blåmes i akvarall](image/blames.jpg "Blåmes") {.image}
