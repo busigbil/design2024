@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/busigbil_round.png
+Tagline: Min portfolio för kursen design 2024.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till sidans github repo.
+      url: https://github.com/busigbil/design2024
       icon: github
+    - title: Länk till designkursen på dbwebb.
+      url: https://dbwebb.se/kurser/design-v3
+      icon: leaf
 ---
