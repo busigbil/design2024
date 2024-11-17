@@ -1,0 +1,23 @@
+@use 'variables';
+
+body {
+  line-height: 1.4;
+  font-family: variables.$bread-font;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1.96rem;
+  letter-spacing: 1px;
+
+}
+
+.nav {
+  a {
+    font-size: variables.$nav-size;
+  }
+}
+
+.nav {
+  a {
+    font-size: variables.$nav-size;
+  }
+}

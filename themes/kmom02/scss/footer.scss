@@ -1,0 +1,22 @@
+@use 'variables';
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto;
+
+  background: variables.$background-color;
+  background: linear-gradient(90deg, variables.$background-color 0%, variables.$gradient-color 96%);
+}
+
+.social {
+  font-size: variables.$header-size;
+
+  a {
+    text-decoration: none;
+    color: variables.$font-color;
+  }
+}
