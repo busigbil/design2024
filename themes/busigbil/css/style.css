@@ -28,8 +28,13 @@ body {
 
 .main {
     flex: 1 0 auto;
+}
+
+.article {
+    background-color: #FFEDD1;
     max-width: 40rem;
     margin: 1rem 20rem 1rem;
+    padding: 1rem;
 }
 
 .header, .footer {
