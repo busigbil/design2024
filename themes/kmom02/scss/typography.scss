@@ -1,6 +1,7 @@
 @use 'variables';
 
 body {
+  font-size: 1.4em;
   line-height: 1.4;
   font-family: variables.$bread-font;
   font-weight: 400;
@@ -20,4 +21,20 @@ body {
   a {
     font-size: variables.$nav-size;
   }
+}
+
+.landing-page {
+  h2 {
+    font-size: large;
+  }
+}
+
+.technology {
+  h3 {
+    font-size: large;
+  }
+}
+
+.social {
+  font-size: variables.$header-size;
 }
