@@ -13,10 +13,15 @@
 }
 
 .social {
-  font-size: variables.$header-size;
-
   a {
     text-decoration: none;
     color: variables.$font-color;
+  }
+}
+
+@media (max-width: 767px) {
+  .social {
+    font-size: 1.5rem;
+    padding: 0%;
   }
 }
