@@ -1,0 +1,137 @@
+/* technology.scss */
+@use 'variables';
+
+@mixin standard-box {
+  border: 1px solid variables.$border-color;
+  border-radius: 10px;
+  background-color: variables.$box-color;
+  text-align: center;
+}
+
+.landing-page {
+  display: grid;
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+
+  h1 {
+    grid-column: span 3;
+    justify-self: center;
+  }
+
+  .box {
+    @include standard-box;
+    padding: 1rem;
+  }
+
+  .box:hover {
+    box-shadow: 10px 10px 5px 0 variables.$shadow-color;
+  }
+
+  a {
+    text-decoration: none;
+    color: variables.$font-darker-color;
+  }
+
+  .css,
+  .git {
+    grid-column: 1 / span 1;
+  }
+
+  .javascript {
+    grid-column: 1 / span 2;
+  }
+
+  .html,
+  .sqlite {
+    grid-column: 2 / span 2;
+  }
+
+  .python {
+    grid-column: 1 / span 3;
+  }
+
+  .php {
+    grid-column: 3 / span 1;
+  }
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  .article {
+    width: 70%;
+  }
+
+  .menu {
+    width: 20%;
+    justify-content: center;
+  }
+
+  .box {
+    @include standard-box;
+    padding: 0.25rem;
+  }
+
+  .box:hover {
+    background-color: variables.$shadow-color;
+  }
+
+  a {
+    text-decoration: none;
+    color: variables.$font-darker-color;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .landing-page {
+    gap: 0.75rem;
+    margin-bottom: 1.96rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+
+    .box {
+      padding: 0;
+    }
+
+    .box:hover {
+      background-color: variables.$shadow-color;
+      box-shadow: none;
+    }
+
+    h1,
+    .css,
+    .html,
+    .javascript,
+    .php,
+    .python,
+    .git,
+    .sqlite {
+      grid-column: 1 / span 1;
+    }
+  }
+
+  .technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+
+    .article {
+      width: 100%;
+    }
+
+    .menu {
+      display: none;
+    }
+  }
+}
