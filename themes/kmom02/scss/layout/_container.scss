@@ -1,0 +1,38 @@
+/* container.scss */
+@use "../abstracts" as *;
+
+html,
+body {
+  font-size: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+}
+
+.main {
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+.content {
+  max-width: 64em;
+  padding: 0.5rem 2rem;
+  margin: 1.96rem auto;
+  min-height: 20rem;
+}
+
+img {
+  filter: $img-filter;
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+}

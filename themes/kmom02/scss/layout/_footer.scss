@@ -1,0 +1,28 @@
+/* footer.scss */
+@use "../abstracts" as *;
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto;
+
+  background: $background-color;
+  background: linear-gradient(90deg, $background-color 0%, $gradient-color 96%);
+}
+
+.social {
+  a {
+    text-decoration: none;
+    color: $font-color;
+  }
+}
+
+@media (max-width: 767px) {
+  .social {
+    font-size: 1.5rem;
+    padding: 0%;
+  }
+}
