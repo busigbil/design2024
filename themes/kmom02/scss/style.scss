@@ -1,16 +1,16 @@
-@use 'mobile-menu';
-@use 'typography';
-@use 'container';
-@use 'header';
-@use 'footer';
-@use 'blockquotes';
-@use 'code';
-@use 'technology';
+/* style.scss */
 
-@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@use 'abstracts' as *;
+@use 'base';
+@use 'components';
+@use 'layout';
+@use 'pages';
+
+@import '../../node_modules/normalize.css/normalize';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import '../../node_modules/normalize.css/normalize';
+
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
