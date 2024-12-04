@@ -1,0 +1,63 @@
+/* typography.scss */
+@use "../abstracts" as *;
+
+body {
+  font-size: 1.4em;
+  line-height: 1.4;
+  font-family: $bread-font;
+  font-weight: $paragraph-wight;
+  font-style: normal;
+  margin-bottom: 1.96rem;
+  letter-spacing: 1px;
+  color: $font-color;
+}
+
+.nav {
+  a {
+    font-size: $nav-size;
+  }
+}
+
+.nav {
+  a {
+    font-size: $nav-size;
+  }
+}
+
+.nav a,
+.nav-toggle {
+  color: $font-darker-color;
+  text-decoration: none;
+  font-weight: $header-weight;
+}
+
+.landing-page {
+  h2 {
+    font-size: large;
+  }
+
+  a {
+    text-decoration: none;
+    color: $font-darker-color;
+  }
+}
+
+.technology {
+  h3 {
+    font-size: large;
+  }
+
+  a {
+    text-decoration: none;
+    color: $font-darker-color;
+  }
+}
+
+.social {
+  font-size: $header-size;
+}
+
+.color-text {
+  font-style: italic;
+  font-size: smaller;    
+}
