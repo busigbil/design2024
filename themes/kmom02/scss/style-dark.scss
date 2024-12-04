@@ -1,0 +1,43 @@
+/* style-dark.scss */
+
+@use 'abstracts' as * with (
+    $font-color: #ffdfd2,
+    $font-darker-color: #F2D4D7,
+    
+    $background-color:rgb(58, 30, 34),
+    $gradient-color: rgba(84, 54, 59, 1),
+    
+    $box-color: #9a7b782c,
+    $border-color: #ceadae85,
+    $shadow-color: rgba(0, 0, 0, 0.4),
+    
+    $header-size: 2rem,
+    $subheader-size: 1.25rem,
+    $nav-size: 1.25rem,
+    $paragraph-size: 1.4em,
+    
+    $header-weight: 700,
+    $paragraph-wight: 500,
+    
+    $mobile-header: 1.25rem,
+    $mobile-subheader: 1rem,
+    $mobile-paragraph: 0.75rem,
+    
+    $code-border: #ceadae85,
+    $code-background: #9a7b784d,
+    
+    $img-filter: grayscale(80%),
+);
+@use 'base';
+@use 'components';
+@use 'layout';
+@use 'pages';
+
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
