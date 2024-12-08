@@ -36,7 +36,8 @@ Resultat
 
 ### Lotta Nieminen
 
-![Lotta Nieminens portfolio](image/colornalysis1.jpg "Lotta Nieminens portfolio") {.image}
+![Lotta Nieminens portfolio](%base_url%/image/lotta.jpg  "Lotta Nieminens portfolio") {.image}
+<img src="../assets/img/colornalysis2.jpg" alt="Camilla Läckbergs hemsida">
 
 Hemsidan tillhörande den finska grafiska designern Lotta Nieminen har ett färgschema färgschema med nyanser i grått, vitt och svart.
 
@@ -52,12 +53,12 @@ Hemsidan tillhörande den finska grafiska designern Lotta Nieminen har ett färg
 
 För typografi används typsnittet Romie-Regular för H1-element, medan övriga rubriker (H2–H4) och brödtext använder typsnittet Unica77LLSub-RegularSubset.
 
-![Typsnittet Romie Regular](image/romie-regular.png  "Typsnittet Romie Regular") {.image}
-![Typsnittet Unica77](image/unica77.png  "Typsnittet Unica77") {.image}
+![Typsnittet Romie Regular](%base_url%/image/romie.png "Typsnittet Romie Regular") {.image}
+![Typsnittet Unica77](%base_url%/image/unica77.png "Typsnittet Unica77") {.image}
 
 ### Camilla Läckberg
 
-![Camilla Läckbergs hemsida](image/colornalysis2.jpg "Camilla Läckbergs hemsida") {.image}
+![Camilla Läckbergs hemsida](%base_url%/image/camilla.jpg  "Camilla Läckbergs hemsida") {.image}
 
 Den svenska författaren Camilla Läckbergs hemsida har ett färgschema i dovrosa, guld, vitt och mörkgrått. Större element på sidan har även bakgrundsfärger i svart, orange, blått och beige. 
 
@@ -81,12 +82,12 @@ Den svenska författaren Camilla Läckbergs hemsida har ett färgschema i dovros
 
 Typografiskt används JeunesseCroatian för både rubriker och brödtext, medan H2-element specifikt använder Quatro Light.
 
-![Typsnittet Jeunesse](image/jeunesse.png  "Typsnittet Jeunesse") {.image}
-![Typsnittet Quatro Light](image/quatro-light.png  "Typsnittet Quatro Light") {.image}
+![Typsnittet Jeunesse](%base_url%/image/jeunesse.png "Typsnittet Jeunesse") {.image}
+![Typsnittet Quatro Light](%base_url%/image/quatro-light.png "Typsnittet Quatro Light") {.image}
 
 ### Underbara Clara
 
-![Underbara Claras blogg](image/colornalysis3.jpg  "Underbara Claras blogg") {.image}
+![Underbara Claras blogg](%base_url%/image/clara.jpg "Underbara Claras blogg") {.image}
 
 Den personliga bloggen Underbara Clara har ett färgschema i grått, mintgrönt och vitt, med accentfärg i gult. 
 
@@ -102,16 +103,16 @@ Den personliga bloggen Underbara Clara har ett färgschema i grått, mintgrönt 
 
 För H1-element används typsnittet The Soul of Vodka, medan övriga element använder Libre Baskerville.
 
-![Typsnittet The Soul of Vodka](image/soul-vodka.png  "Typsnittet The Soul of Vodka") {.image}
-![Typsnittet Libre Baskerville](image/libre-baskerville.png  "Typsnittet Libre Baskerville") {.image}
+![Typsnittet The Soul of Vodka](%base_url%/image/soul-vodka.png "Typsnittet The Soul of Vodka") {.image}
+![Typsnittet Libre Baskerville](%base_url%/image/libre.png "Typsnittet Libre Baskerville") {.image}
 
 Analys
 -----------------------
 I denna analys har jag granskat tre olika webbplatser och undersökt hur färgval kan användas för att uttrycka känsla och identitet. Samtidigt har jag identifierat ett exempel där en alltför spretig färgpalett riskerar att skapa en rörig och mindre harmonisk upplevelse.
 
-Lotta Nieminens portfolio kännetecknas av en elegant, monokrom färgskala i grå nyanser och stilrena typsnitt som för tankarna till modemagasin. Det utvalda färgschemat framhäver bilderna och låter dem ta huvudrollen i att illustrera designerens arbete.
+Lotta Nieminens portfolio kännetecknas av en elegant, monokrom färgskala i grå nyanser och stilrena typsnitt som för tankarna till modemagasin. Det utvalda färgschemat framhäver bilderna och låter dem ta huvudrollen i att illustrera designerns arbete.
 
-Camilla Läckbergs hemsida har en färgpalett som domineras av rosa, guld och vitt – färger som förmedlar en känsla av kvinnlighet och lyx. Samtidigt bryts detta intryck av större färgblock i svart, orange och blått, vilket skapar en kontrast. Dessa färger verkar delvis ha valts för att spegla den blå färgpalett som används vid lanseringen av en ny bok, eller för att harmonisera med en beige bakgrund från ett porträttfotografi. Dock upplevs de stora blocken av svart och orange som avvikande från det ursprungliga färgschemat och skapar ett rörigt intryck.
+Camilla Läckbergs hemsida har en färgpalett som domineras av rosa, guld och vitt – färger som förmedlar en känsla av kvinnlighet och lyx. Samtidigt konstrasteras denna färgpalett av större element i svart, orange och blått. Dessa färger verkar delvis ha valts för att spegla den blå färgpalett som används vid lanseringen av en ny bok, eller för att harmonisera med en beige bakgrund från ett porträttfotografi. Dock upplevs de stora blocken av svart och orange som avvikande från det ursprungliga färgschemat och skapar ett rörigt intryck.
 
 Underbara Claras blogg förmedlar ett lekfullt och hemtrevligt intryck genom sin färgskala i grått och mintgrönt, och tycks passa ihop med bloggens innehåll om livet på en lantgård i Västerbotten. Färgerna återkommer i illustrationerna på sidan, vilket bidrar till ett genomtänkt intryck.
 
