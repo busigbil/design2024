@@ -1,0 +1,35 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="content">
+            <div class="landing-page gallery">
+                {{ content }}
+
+                {% for img in meta.imgs %}
+                <a class="{{ img.class }}" href="image/gallery/{{ img.class }}.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 766px)" srcset="image/gallery/{{ img.class }}.jpg?w=960&q=90">
+                        <source media="(min-width: 376px)" srcset="image/gallery/{{ img.class }}.jpg?w=667&q=70">
+                        <img class="box" src="image/gallery/{{ img.class }}.jpg?w=375&h=375&crop-to-fit&q=70"
+                            alt="Katt">
+                    </picture>
+                </a>
+                {% endfor %}
+            </div>
+
+            <div class="embed-container">
+                <iframe src="https://www.youtube.com/embed/rj6bBkXPFH0?si=ttByxzoohOH_CcYH" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

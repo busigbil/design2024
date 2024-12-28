@@ -37,7 +37,6 @@ Resultat
 ### Lotta Nieminen
 
 ![Lotta Nieminens portfolio](%base_url%/image/lotta.jpg  "Lotta Nieminens portfolio") {.image}
-<img src="../assets/img/colornalysis2.jpg" alt="Camilla Läckbergs hemsida">
 
 Hemsidan tillhörande den finska grafiska designern Lotta Nieminen har ett färgschema färgschema med nyanser i grått, vitt och svart.
 
