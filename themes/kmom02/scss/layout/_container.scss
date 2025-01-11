@@ -1,5 +1,5 @@
 /* container.scss */
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 html,
 body {
@@ -11,7 +11,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: $background-color;
+  background-image: $background-image;
 }
 
 .main {
@@ -21,18 +21,41 @@ body {
 
 .content {
   max-width: 64em;
-  padding: 0.5rem 2rem;
+  padding: 2rem;
   margin: 1.96rem auto;
   min-height: 20rem;
+  background-color: $background-color;
+
+  border: 2px solid $border-color;
+  border-radius: 0 60px;
+  box-shadow: 1px 1px 8px $shadow-color;
+
+  a {
+    color: $font-color;
+  }
 }
 
-img, iframe {
+article a:link {
+  text-decoration: underline dotted $shadow-color 2px;
+}
+
+img,
+iframe {
   filter: $img-filter;
 }
 
 @media (max-width: 767px) {
+  body {
+    background-image: none;
+    background-color: $background-color;
+  }
+
   .content {
-    padding: 0 1rem;
+    padding: 1.25rem 1rem;
     margin: 0 auto;
+
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 }

@@ -6,7 +6,7 @@ Template: areas
 
 Laddningstid och användbarhet i webbdesign
 =======================
-Laddningstid och användbarhet är centrala för en webbsidas användarupplevelse och funktionalitet. I denna analysuppgift har tre webbplatser valts ut för att analysera deras laddningstider, samt hur de kan förvättras med avseende laddningstid och användbarhet.
+Laddningstid och användbarhet är centrala för en webbsidas användarupplevelse och funktionalitet. I denna analysuppgift har tre webbplatser valts ut för att analysera deras laddningstider, samt hur de kan förbättras med avseende laddningstid och användbarhet.
 
 Urval
 -----------------------
@@ -38,7 +38,7 @@ För att förbättra tillgängligheten rekommenderades bland annat följande åt
 
 Portfoliohemsidan hade en genomsnittlig laddningstid på 8,12 sekunder, baserat på tre mätningar. Genomsnittligt antal laddade resurser uppgick till 11,67, och den genomsnittliga sidstorleken var 211,20 kilobyte, varav 217,35 kilobyte data överfördes.
 
-<div class="embed-calc"><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSeIxyAgVf39mbflDpfHHJI-CPtpwKECgD5jCgDre-MrZy4SL7O5j03qwklyBG2NWMxcfYZv87nWqJj/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
+<div class="embed-calc"><iframe title="Mätvärden laddnibgstid för Lotta Nieminens portfolio" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSeIxyAgVf39mbflDpfHHJI-CPtpwKECgD5jCgDre-MrZy4SL7O5j03qwklyBG2NWMxcfYZv87nWqJj/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
 
 ### Camilla Läckberg
 ![Camilla Läckbergs hemsida](%base_url%/image/camilla.jpg  "Camilla Läckbergs hemsida") {.image}
@@ -51,7 +51,7 @@ För att förbättra tillgängligheten föreslogs att kontrasten mellan bakgrund
 
 Hemsidan hade en genomsnittlig laddningstid på 3,92 sekunder, baserat på tre mätningar. Totalt laddades 23 resurser, och den genomsnittliga sidstorleken uppgick till 24,42 megabyte, varav 23,94 megabyte data överfördes.
 
-<div class="embed-calc"><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYCs56a7qBb2cieO0kW2z9AS42Upxm-m_4huGpEY2iGS5CQivG3re9wGdgbclboskWbiJHFMA2NHsn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
+<div class="embed-calc"><iframe title="Mätvärden laddnibgstid för Camilla Läckbergs hemsida" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYCs56a7qBb2cieO0kW2z9AS42Upxm-m_4huGpEY2iGS5CQivG3re9wGdgbclboskWbiJHFMA2NHsn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
 
 ### Underbara Clara
 ![Underbara Claras blogg](%base_url%/image/clara.jpg "Underbara Claras blogg") {.image}
@@ -64,7 +64,7 @@ För att förbättra tillgängligheten föreslogs att alla bildelement ska ha al
 
 Enligt mätningarna hade Underbara Claras blogg en genomsnittlig laddningstid på 1,72 sekunder, baserat på tre tester. Totalt laddades i genomsnitt 22,67 resurser, och den totala sidstorleken var 628,41 kilobyte, varav 572,79 kilobyte överfördes.
 
-<div class="embed-calc"><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vStW0kJTWWIWxPCsdwdVhrDCsRpguzszc9-T29-xvMvDnkeXQOkO2R4Ict0jk5nxrMC9gAMi57BrEd0/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
+<div class="embed-calc"><iframe title="Mätvärden laddnibgstid för Underbara Claras blogg" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vStW0kJTWWIWxPCsdwdVhrDCsRpguzszc9-T29-xvMvDnkeXQOkO2R4Ict0jk5nxrMC9gAMi57BrEd0/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
 
 Analys
 -----------------------

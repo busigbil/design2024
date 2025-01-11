@@ -1,5 +1,5 @@
 /* footer.scss */
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 .footer {
   display: flex;
@@ -11,18 +11,36 @@
 
   background: $background-color;
   background: linear-gradient(90deg, $background-color 0%, $gradient-color 96%);
+
+  border-radius: 200px 0 0;
+  box-shadow: 1px 1px 8px $shadow-color;
+
+  p {
+    padding-left: 2rem;
+  }
 }
 
 .social {
   a {
     text-decoration: none;
     color: $font-color;
+    font-size: $social-icons;
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 767px) {
+  .footer {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
   .social {
-    font-size: 1.5rem;
     padding: 0%;
+    text-align: center;
+    
+    a {
+      font-size: $social-icons-mini;
+    }
   }
 }

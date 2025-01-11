@@ -1,6 +1,6 @@
 /* mobile-menu.scss */
-@use "../abstracts" as *;
-@use "../pages" as pages;
+@use '../abstracts' as *;
+@use '../pages' as pages;
 
 .hidden {
   overflow-y: hidden !important;
@@ -10,7 +10,6 @@
 .nav ul {
   display: flex;
   justify-content: flex-end;
-  padding: 1em 0;
   list-style: none;
 }
 
@@ -28,6 +27,8 @@
   }
 
   .nav {
+    display: inline;
+    
     ul {
       flex-direction: column;
       padding-bottom: 1em;

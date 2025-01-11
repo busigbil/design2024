@@ -1,5 +1,5 @@
 /* header.scss */
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 .hidden {
   display: none !important;
@@ -8,9 +8,10 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background: $background-color;
   background: linear-gradient(0deg, $background-color 0%, $gradient-color 100%);
   padding: 0.5rem 2rem;
+  border-radius: 0 0 200px;
+  box-shadow: 1px 1px 8px $shadow-color;
 }
 
 .site-header {
@@ -19,37 +20,26 @@
   justify-content: space-between;
   align-items: center;
 
-  .title,
-  .logo {
-    padding: 3em 3em 3em 0;
-  }
-}
-
-.title {
-  a {
-    text-decoration: none;
-  }
-
   h1 {
-    color: $font-darker-color;
+    padding: 0;
+    margin: 0;
   }
 
   p {
-    color: $font-color;
-  }
-} 
-
-.logo {
-  img {
-    object-fit: contain;
-    width: 100%;
-    filter: $img-filter;
+    padding: 0;
+    margin: 0;
   }
 }
 
 .nav {
-  a {
-    color: $font-darker-color;
+  display: flex;
+}
+
+.logo {
+  img {
+    object-fit: contain;
+    width: 75%;
+    filter: $img-filter;
   }
 }
 
@@ -59,21 +49,38 @@
   border-radius: 5px;
 }
 
+@media (max-width: 1090px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .site-header {
+    justify-content: left;
+  }
+}
+
 @media (max-width: 767px) {
   .header {
     padding: 1rem 1rem 0;
+    border-radius: 0;
+    box-shadow: none;
   }
-  
+
   .site-header {
-    .title {
-      min-width: 60%;
-      padding: 0.5rem 1rem;
-    }
-  
     .logo {
       max-width: 30%;
       padding: 0.5rem 1rem;
       filter: $img-filter;
     }
+
+    h1 {
+      padding: 0;
+      margin: 0;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
   }
-} 
+}

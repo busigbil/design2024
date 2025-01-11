@@ -8,7 +8,7 @@ areas:
     - name: Load
       class: 02_load
     - name: Design
-      class: 03_design
+      class: 03_design_principles
 ---
 
 Analysområden

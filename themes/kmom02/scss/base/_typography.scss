@@ -1,5 +1,5 @@
 /* typography.scss */
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 body {
   font-size: 1.4em;
@@ -12,8 +12,26 @@ body {
   color: $font-color;
 }
 
+.title {
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    color: $font-darker-color;
+    font-size: $header-size;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  p {
+    color: $font-color;
+    font-size: $subheader-size;
+  }
+}
+
 .nav {
   a {
+    color: $font-darker-color;
     font-size: $nav-size;
   }
 }
@@ -53,11 +71,24 @@ body {
   }
 }
 
-.social {
-  font-size: $header-size;
-}
-
 .color-text {
   font-style: italic;
-  font-size: smaller;    
+  font-size: smaller;
+}
+
+@media (max-width: 767px) {
+  .site-header {
+    .title {
+      min-width: 60%;
+      padding: 0.5rem 1rem;
+    }
+
+    h1 {
+      font-size: $mobile-header;
+    }
+    
+    p {
+      font-size: $mobile-subheader;
+    }
+  }
 }
